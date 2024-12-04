@@ -1,8 +1,12 @@
 # README
 # Wildfire-Research-Final
 
-## Project Goal
-To conduct a "Common Analysis" that estimates the impact of wildfire smoke on an assigned US city. This analysis will create a base understanding of annual smoke impacts on Fresno, CA using historical wildfire data. This part will set up the foundation for further analysis and science communication to public policy officials.
+## Project Motivation and Description 
+
+Fresno is a mid-sized city in the California Central Valley, an economic hub predominantly contributing to the agricultural industry. As of 2020, the city boasts over half a million inhabitants; it is geographically centered between population centers in Northern California, Southern California, and Nevada. There is evidence to suggest that wildfires are increasing in not only size but also intensity. Airborne pollutants from wildfires in forests hundreds of miles away from Fresno still pose the risk of exacerbating chronic heart and lung conditions (Environmental Protection Agency). 
+
+The links between increased wildfire-related pollution and increased mortality in California are well-documented (Chen et al., Gwon et. al). This analysis creates a predictive estimate for the impact of smoke caused by wildfires within 650 miles of Fresno. Then, data on deaths caused by chronic lower respiratory diseases inform the predictive estimate to quantify future impacts of smoke from a public health perspective. This project presents a refinement of the preliminary smoke estimate discusses the use of non-periodic time series forecasting techniques. This project generates correlations between the refined smoke estimate Fresno’s deaths caused by respiratory conditions. In turn, calling for a study detecting causal connections between the two phenomena.
+
 
 ## Data Citations
 California Department of Public Health. Death Statistical Master File (Static), 1989-2013. Compiled by Center for Health Statistics and Informatics.
@@ -15,11 +19,11 @@ Welty, J.L., and Jeffries, M.I., 2021, Combined wildland fire datasets for the U
 
 Open for public use contingent on following [terms of service](https://data.chhs.ca.gov/pages/terms).
 
-### Brief Summary:
+### Data Source Brief Summaries:
 
-"These dataset uses these existing layers and utilizes a series of both manual processes and ArcGIS Python (arcpy) scripts to merge these existing datasets into a single dataset that encompasses the known wildfires and prescribed fires within the United States and certain territories. Forty different fire layers were utilized in this dataset...
+"This dataset contains counts of deaths for California residents by ZIP Code based on information entered on death certificates. Final counts are derived from static data and include out-of-state deaths of California residents. The data tables include deaths of residents of California by ZIP Code of residence (by residence). The data are reported as totals, as well as stratified by age and gender. Deaths due to all causes (ALL) and selected underlying cause of death categories are provided. See temporal coverage for more information on which combinations are available for which years" (CalHHS).
 
-Overall, we believe this dataset is designed be to a comprehensive collection of fire boundaries within the United States and provides a more thorough and complete picture of fires across the United States when compared to the datasets that went into it" (Welty et al).
+"These dataset uses these existing layers and utilizes a series of both manual processes and ArcGIS Python (arcpy) scripts to merge these existing datasets into a single dataset that encompasses the known wildfires and prescribed fires within the United States and certain territories. Forty different fire layers were utilized in this dataset... Overall, we believe this dataset is designed be to a comprehensive collection of fire boundaries within the United States and provides a more thorough and complete picture of fires across the United States when compared to the datasets that went into it" (Welty et al).
 
 ## License of Source Code
 
