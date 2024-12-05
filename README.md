@@ -1,7 +1,9 @@
 # README
 # Wildfire-Research-Final
 
-### Please see the final written report in file **Part 4 Written Report** and the academic poster summarizing this project in **Kilpatrick_poster_241202.pdf**.
+### Please see:
+- The final written report in file **Part 4 Written Report**.
+- The academic poster summarizing this project in **Kilpatrick_poster_241202.pdf**.
 
 ## Project Motivation and Description 
 Fresno is a mid-sized city in the California Central Valley, an economic hub predominantly contributing to the agricultural industry. As of 2020, the city boasts over half a million inhabitants; it is geographically centered between population centers in Northern California, Southern California, and Nevada. There is evidence to suggest that wildfires are increasing in not only size but also intensity. Airborne pollutants from wildfires in forests hundreds of miles away from Fresno still pose the risk of exacerbating chronic heart and lung conditions (Environmental Protection Agency). 
